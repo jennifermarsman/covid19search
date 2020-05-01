@@ -46,7 +46,7 @@
         "@odata.type": "#Microsoft.Skills.Custom.WebApiSkill",
         "name": "NameConcat",
         "description": "Name concatenation custom skill",
-        "uri": "https://nameconcatenator.azurewebsites.net/api/Concatenator?code=ZgrlUIR5JSTKQ2LhjVuUlboBDA9Xu8psfcZrbyp5haaqqhmT9IPZ7Q==",        
+        "uri": "https://nameconcatenator.azurewebsites.net/api/Concatenator?code=TODO",        
           "context": "/document/metadata/authors",
           "inputs": [
             {
@@ -65,7 +65,7 @@
         "@odata.type": "#Microsoft.Skills.Custom.WebApiSkill",
         "name": "InvokeTAHealthExtraction",
         "description": "Custom skill to call the Microsoft Text Analytics Health entity extraction",
-        "uri": "https://invokehealthentityextraction.azurewebsites.net/api/InvokeHealthEntityExtraction?code=D5Yf5UPR8yTnc/fLxorw49Kc2XiycFN3PnPGDv8W8T/QTT89vOQy0g==",
+        "uri": "https://invokehealthentityextraction.azurewebsites.net/api/InvokeHealthEntityExtraction?code=TODO",
         "timeout": "PT230S",
         "context": "/document",
           "inputs": [
@@ -408,11 +408,11 @@
     ],
     "cognitiveServices": {
       "@odata.type": "#Microsoft.Azure.Search.CognitiveServicesByKey",
-      "description": "/subscriptions/7968f047-21ab-4b66-a5f9-1608f039b7a9/resourceGroups/covid19-jen/providers/Microsoft.CognitiveServices/accounts/Covid19-CognitiveServices",
-      "key": "04da8c4428734bf88ed5d611cff7e82c"
+      "description": "This is a Cognitive Services all-in-one key.",
+      "key": "TODO"
     },
     "knowledgeStore": {
-      "storageConnectionString": "DefaultEndpointsProtocol=https;AccountName=covid19storagejen;AccountKey=AwLWiDdbuXhEVJazEtzgRM7uvCP9tRrNXzw2Tp1yHY5kawttLcMRwokVXoWwEJYJiti6H8Ivtr1J+WMQDLpLHA==;EndpointSuffix=core.windows.net",
+      "storageConnectionString": "TODO",
       "projections": [
         {
           "tables": [
